@@ -1,7 +1,7 @@
 # Cpp_Course
 Progression tracker and Development logging for learning in-depth Robotics Tracking and Sensor Fusion grade C++. 
 
-This repo will be a living learning environment as we navigate traverse from C++ foundations to advanced concepts and implementations.
+This repo will be a living learning environment as I build from C++ foundations to advanced concepts and implementations.
 
 ---
 
@@ -9,14 +9,14 @@ This repo will be a living learning environment as we navigate traverse from C++
 
 A structured, self-paced C++ course. Traceability comes from **three artifacts + git history**, not one giant file:
 
-- **`sessions/`** — one dated markdown per study day (the *diary*): what we learned, quiz score, code written, what tripped me up, wins, review flags. Copy `sessions/_TEMPLATE.md` each day.
+- **`sessions/`** — one dated markdown per study day (the *diary*): what was learned, quiz score, code written, what tripped me up, wins, review flags. Copy `sessions/_TEMPLATE.md` each day.
 - **`progress/skills-tracker.md`** — the *state*: a mastery matrix of every concept (⚪ Not started → 🟡 Learning → 🟢 Solid → 🔵 Mastered).
 - **`progress/review-queue.md`** — the *schedule*: spaced-repetition dates so old concepts resurface before they fade.
 - **git history** — the *timeline*: every commit is dated, so `git log` answers "what did I do that day."
 
 ### The daily ritual
 1. **Warm-up (~15 min):** cold re-quiz of yesterday + anything due in the review queue.
-2. **Learn & test (~35 min):** new concept taught as **broken code → fixed code**; I quiz you, we log the score.
+2. **Learn & test (~35 min):** new concept taught as **broken code → fixed code**; quiz, log the score.
 3. **Code (~25 min):** you write the snippet/struct/class/function/solution → goes in `code/`, gets committed.
 4. **Log (~10 min):** fill in today's `sessions/` file; update the skills tracker + review queue.
 
