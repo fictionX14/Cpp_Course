@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# C++ build artifacts
+*.o
+*.obj
+*.out
+a.out
+*.exe
+*.dSYM/
+build/
