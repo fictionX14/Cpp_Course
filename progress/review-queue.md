@@ -6,4 +6,6 @@ Warm-up each session = everything with a **Next review** date ≤ today.
 
 | Concept | Last reviewed | Interval | Next review | Result last time |
 |---|---|---|---|---|
-| _(fills in after Day 1)_ | | | | |
+| Stack vs heap | 2026-07-07 | 1d | 2026-07-08 | learned Day 1 |
+| RAII (acquire/release, dtor-on-unwind) | 2026-07-07 | 1d | 2026-07-08 | learned Day 1 |
+| Exception = invisible exit path | 2026-07-07 | 1d | 2026-07-08 | new concept |

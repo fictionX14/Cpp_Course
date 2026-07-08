@@ -7,9 +7,9 @@ Mastery matrix for every C++ concept we touch. Update at the end of each session
 ## Phase 0 — Memory & Ownership
 | Concept | Status | First seen | Last reviewed | Notes |
 |---|---|---|---|---|
-| Stack vs heap | ⚪ | — | — | |
-| RAII | ⚪ | — | — | |
-| `new`/`delete`, leaks | ⚪ | — | — | |
+| Stack vs heap | 🟡 | Day 1 | Day 1 | automatic vs manual; solid quick grasp |
+| RAII | 🟡 | Day 1 | Day 1 | derived it himself; strong on exception-safety |
+| `new`/`delete`, leaks | 🟡 | Day 1 | Day 1 | leak paths incl. invisible exception exits |
 | `std::unique_ptr` | ⚪ | — | — | |
 | `std::shared_ptr` | ⚪ | — | — | |
 | `std::weak_ptr` | ⚪ | — | — | |
