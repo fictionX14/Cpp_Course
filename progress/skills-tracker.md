@@ -7,11 +7,11 @@ Mastery matrix for every C++ concept we touch. Update at the end of each session
 ## Phase 0 — Memory & Ownership
 | Concept | Status | First seen | Last reviewed | Notes |
 |---|---|---|---|---|
-| Stack vs heap | 🟡 | Day 1 | Day 1 | automatic vs manual; solid quick grasp |
-| RAII | 🟡 | Day 1 | Day 1 | derived it himself; strong on exception-safety |
-| `new`/`delete`, leaks | 🟡 | Day 1 | Day 1 | leak paths incl. invisible exception exits |
-| `std::unique_ptr` | ⚪ | — | — | |
-| `std::shared_ptr` | ⚪ | — | — | |
+| Stack vs heap | 🟢 | Day 1 | Day 2 | cold-recalled correctly incl. new/delete pairing |
+| RAII | 🟢 | Day 1 | Day 2 | cold-recalled w/ minor phrasing fix; proved it live w/ `leaks` tool |
+| `new`/`delete`, leaks | 🟢 | Day 1 | Day 2 | verified leak count/size w/ real tool, understands allocator overhead |
+| `std::unique_ptr` | 🟡 | Day 2 | Day 2 | ownership, `make_unique`, move-only enforced at compile time; reasoned double-free risk unprompted |
+| `std::shared_ptr` | ⚪ | Day 2 (teaser) | — | full session pending Day 3 |
 | `std::weak_ptr` | ⚪ | — | — | |
 | Dangling / use-after-free | ⚪ | — | — | |
 | Double free | ⚪ | — | — | |
