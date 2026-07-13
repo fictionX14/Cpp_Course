@@ -66,6 +66,14 @@ The real HackerRank had three question types. Our prep must drill each in its ac
 
 ---
 
+## PHASE-END INTEGRATION CHECKPOINTS
+
+Added 2026-07-09 (Day 3). Individual concepts graduate via the spaced-repetition review queue (`progress/review-queue.md`) — that stays the primary retention engine, tuned to test each concept right before it'd be forgotten, not everything every session (doesn't scale, wastes reps on things already solid).
+
+But **working knowledge** — fluently combining *multiple* old concepts at once, the way a real code-review problem does — needs its own mechanism:
+- **Daily (lightweight, free):** each session's coding rep quietly weaves in one prior concept alongside the new one, by design — not a bolted-on quiz, just built into the same problem.
+- **Phase-end (the real gate):** before advancing to the next phase, a cumulative test/coding problem pulls together *everything* learned in the phase so far. Tracked in `progress/integration-checkpoints.md`. Must pass before the phase is marked done (in both the roadmap checklist and Notion).
+
 ## NOTION TRACKER
 
 Built 2026-07-02: standalone Notion page **"C++ Competency Roadmap"** (under Private) — mirrors this file. Structure:

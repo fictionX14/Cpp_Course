@@ -37,10 +37,20 @@ private:
 
 void demo(bool errorOccurred) {
 
-    ScopeLogger log("demo resource status: ");
+    // ScopeLogger log("demo resource status: ");
+    ScopeLogger("test");
     if (errorOccurred) return;
     cout << "doing work...\n";
 }
+// OUTPUT OF THE ABOVE FUNCTION, NOTICE THE "NAME" OF THE VARIABLE IS USED IN OUTPUT TO SHOW THE RAII PROCESS, REMEMBER TO NOT CALL SOMETHING LIKE ScopeLogger("x"), this will contruct->delete immediately
+// demo resource status:  acquired
+// doing work...
+// demo resource status:  released
+
+// OUTPUT USING THE IMPROPER "test" assignment 
+// test acquired
+// test released
+// doing work...
 
 int main() { 
 

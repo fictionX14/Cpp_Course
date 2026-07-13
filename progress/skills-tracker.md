@@ -7,14 +7,14 @@ Mastery matrix for every C++ concept we touch. Update at the end of each session
 ## Phase 0 — Memory & Ownership
 | Concept | Status | First seen | Last reviewed | Notes |
 |---|---|---|---|---|
-| Stack vs heap | 🟢 | Day 1 | Day 2 | cold-recalled correctly incl. new/delete pairing |
-| RAII | 🟢 | Day 1 | Day 2 | cold-recalled w/ minor phrasing fix; proved it live w/ `leaks` tool |
+| Stack vs heap | 🟡 | Day 1 | Day 4 | Day 4 warm-up: swapped which one is manual vs automatic — regression from 🟢, watch closely |
+| RAII | 🟡 | Day 1 | Day 4 | Day 4 warm-up: misnamed acronym as "Resource Allocation" (should be Acquisition) — regression from 🟢 |
 | `new`/`delete`, leaks | 🟢 | Day 1 | Day 2 | verified leak count/size w/ real tool, understands allocator overhead |
-| `std::unique_ptr` | 🟡 | Day 2 | Day 2 | ownership, `make_unique`, move-only enforced at compile time; reasoned double-free risk unprompted |
-| `std::shared_ptr` | ⚪ | Day 2 (teaser) | — | full session pending Day 3 |
+| `std::unique_ptr` | 🟢 | Day 2 | Day 4 | consistent correct reasoning across 2 sessions; interleaved successfully into Day 4 coding rep |
+| `std::shared_ptr` | 🟢 | Day 3 | Day 4 | ref-counting mechanism derived correctly AND live-verified via real `use_count()` output Day 4; grasped handle-vs-object distinction unprompted |
 | `std::weak_ptr` | ⚪ | — | — | |
 | Dangling / use-after-free | ⚪ | — | — | |
-| Double free | ⚪ | — | — | |
+| Double free | 🟡 | Day 2 | Day 3 | reasoned correctly both times but conflated "UB" with "compile error" once — watch this |
 
 ## Phase 1 — Value Semantics + STL
 | Concept | Status | First seen | Last reviewed | Notes |
