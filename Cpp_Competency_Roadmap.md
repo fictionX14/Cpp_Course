@@ -1,19 +1,16 @@
 # C++ Competency Roadmap
 
-> Living reference for navigating Chandler's C++ study plan (Anduril — Software Engineer, Robotics Tracking & Fusion / Battlespace Awareness).
-> The framework below is logged word-for-word from the coaching session; we tweak as we go.
+> Living reference for navigating Chandler's C++ study plan (Software Engineer, Robotics Tracking & Fusion).
 
 ---
 
-## THE FRAMEWORK (verbatim)
+## THE FRAMEWORK 
 
-Good — this is the right question, and it's the one that actually controls every other outcome we've talked about. Let me give you a real regimen, honestly calibrated to where you sit.
+### Status/Competency at start
 
-### Where you actually are right now
+Don't lose sight of this: **algorithmic engine is solid** (8/10 from-scratch, and you own BFS/DFS, hash maps, two pointers, heaps, sorting, bitmask-state). Gap is **not** "can I code" — it's specifically **C++ as a systems language**: memory/ownership, value semantics, concurrency, and reading/critiquing unfamiliar code. That's a *narrower and more trainable* gap than "learn to program in C++." Not starting at zero; starting at "strong problem-solver who hasn't yet internalized C++'s hard parts."
 
-Don't lose sight of this: **your algorithmic engine is solid** (8/10 from-scratch, and you own BFS/DFS, hash maps, two pointers, heaps, sorting, bitmask-state). Your gap is **not** "can I code" — it's specifically **C++ as a systems language**: memory/ownership, value semantics, concurrency, and reading/critiquing unfamiliar code. That's a *narrower and more trainable* gap than "learn to program in C++." You're not starting at zero; you're starting at "strong problem-solver who hasn't yet internalized C++'s hard parts."
-
-### Two different finish lines (be honest about which you mean)
+### Two different finish lines
 
 - **Assessment-competent** (pass these C++ HackerRanks *confidently*, not by luck): **~6–10 weeks** of daily work.
 - **Strong C++ SWE** (hold your own on a real systems/robotics team — comfortable with memory, concurrency, idioms; can build and debug real C++): **~6–12 months** of consistent practice, ideally with real project work in the back half.
@@ -38,7 +35,7 @@ Notice Phase 2 is the assessment finish line. Phases 3–4 are what turn "passed
 
 ### Daily cadence (the part that determines success)
 
-**60–90 min/day, 5–6 days/week.** You have 3–4 hours, but consistency crushes volume — a sustainable daily habit you keep for 6 months beats a heroic week you burn out on. Bank the extra hours on days you *want* to; don't build the plan around needing them.
+**60–90 min/day, 5–6 days/week.** consistency crushes volume — a sustainable daily habit you keep for 6 months beats a heroic week you burn out on. Bank the extra hours on days you *want* to; don't build the plan around needing them.
 
 A daily block:
 - **~15 min** — spaced review of prior concepts, flashcard-style (RAII, move semantics, "what's the bug here"). This is what makes it *stick*.
@@ -65,14 +62,6 @@ The real HackerRank had three question types. Our prep must drill each in its ac
 > Note: user's own "Phase 1/2/3" labels above refer to these three assessment sections, not the learning phases in the table. Keeping both framings; will reconcile as we build the week-by-week checklist.
 
 ---
-
-## PHASE-END INTEGRATION CHECKPOINTS
-
-Added 2026-07-09 (Day 3). Individual concepts graduate via the spaced-repetition review queue (`progress/review-queue.md`) — that stays the primary retention engine, tuned to test each concept right before it'd be forgotten, not everything every session (doesn't scale, wastes reps on things already solid).
-
-But **working knowledge** — fluently combining *multiple* old concepts at once, the way a real code-review problem does — needs its own mechanism:
-- **Daily (lightweight, free):** each session's coding rep quietly weaves in one prior concept alongside the new one, by design — not a bolted-on quiz, just built into the same problem.
-- **Phase-end (the real gate):** before advancing to the next phase, a cumulative test/coding problem pulls together *everything* learned in the phase so far. Tracked in `progress/integration-checkpoints.md`. Must pass before the phase is marked done (in both the roadmap checklist and Notion).
 
 ## NOTION TRACKER
 
