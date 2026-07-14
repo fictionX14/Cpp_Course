@@ -4,15 +4,13 @@
 
 ---
 
-## THE FRAMEWORK (verbatim)
+## THE FRAMEWORK 
 
-Good — this is the right question, and it's the one that actually controls every other outcome we've talked about. Let me give you a real regimen, honestly calibrated to where you sit.
+### Status/Competency at start
 
-### Where you actually are right now
+Don't lose sight of this: **algorithmic engine is solid** (8/10 from-scratch, and you own BFS/DFS, hash maps, two pointers, heaps, sorting, bitmask-state). Gap is **not** "can I code" — it's specifically **C++ as a systems language**: memory/ownership, value semantics, concurrency, and reading/critiquing unfamiliar code. That's a *narrower and more trainable* gap than "learn to program in C++." Not starting at zero; starting at "strong problem-solver who hasn't yet internalized C++'s hard parts."
 
-Don't lose sight of this: **your algorithmic engine is solid** (8/10 from-scratch, and you own BFS/DFS, hash maps, two pointers, heaps, sorting, bitmask-state). Your gap is **not** "can I code" — it's specifically **C++ as a systems language**: memory/ownership, value semantics, concurrency, and reading/critiquing unfamiliar code. That's a *narrower and more trainable* gap than "learn to program in C++." You're not starting at zero; you're starting at "strong problem-solver who hasn't yet internalized C++'s hard parts."
-
-### Two different finish lines (be honest about which you mean)
+### Two different finish lines
 
 - **Assessment-competent** (pass these C++ HackerRanks *confidently*, not by luck): **~6–10 weeks** of daily work.
 - **Strong C++ SWE** (hold your own on a real systems/robotics team — comfortable with memory, concurrency, idioms; can build and debug real C++): **~6–12 months** of consistent practice, ideally with real project work in the back half.
@@ -37,7 +35,7 @@ Notice Phase 2 is the assessment finish line. Phases 3–4 are what turn "passed
 
 ### Daily cadence (the part that determines success)
 
-**60–90 min/day, 5–6 days/week.** You have 3–4 hours, but consistency crushes volume — a sustainable daily habit you keep for 6 months beats a heroic week you burn out on. Bank the extra hours on days you *want* to; don't build the plan around needing them.
+**60–90 min/day, 5–6 days/week.** consistency crushes volume — a sustainable daily habit you keep for 6 months beats a heroic week you burn out on. Bank the extra hours on days you *want* to; don't build the plan around needing them.
 
 A daily block:
 - **~15 min** — spaced review of prior concepts, flashcard-style (RAII, move semantics, "what's the bug here"). This is what makes it *stick*.
