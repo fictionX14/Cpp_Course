@@ -1,7 +1,6 @@
 # C++ Competency Roadmap
 
-> Living reference for navigating Chandler's C++ study plan (Anduril — Software Engineer, Robotics Tracking & Fusion / Battlespace Awareness).
-> The framework below is logged word-for-word from the coaching session; we tweak as we go.
+> Living reference for navigating Chandler's C++ study plan (Software Engineer, Robotics Tracking & Fusion).
 
 ---
 
