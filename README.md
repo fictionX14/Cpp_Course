@@ -12,6 +12,7 @@ A structured, self-paced C++ course. Traceability comes from **three artifacts +
 - **`sessions/`** — one dated markdown per study day (the *diary*): what was learned, quiz score, code written, what tripped me up, wins, review flags. Copy `sessions/_TEMPLATE.md` each day.
 - **`progress/skills-tracker.md`** — the *state*: a mastery matrix of every concept (⚪ Not started → 🟡 Learning → 🟢 Solid → 🔵 Mastered).
 - **`progress/review-queue.md`** — the *schedule*: spaced-repetition dates so old concepts resurface before they fade.
+- **`progress/integration-checkpoints.md`** — the *gate*: a cumulative test/coding problem at the end of each phase, pulling together everything learned so far (not just the latest concept).
 - **git history** — the *timeline*: every commit is dated, so `git log` answers "what did I do that day."
 
 ### The daily ritual
@@ -22,6 +23,10 @@ A structured, self-paced C++ course. Traceability comes from **three artifacts +
 
 ### Progression rule
 A new concept enters only when the current one is 🟢 Solid *and* survives a cold quiz. The review queue keeps prior concepts circulating — "add new" never means "abandon old."
+
+Two levels of retention, not one:
+- **Per-concept** (daily): the spaced-repetition review queue — tests each concept right before it'd be forgotten, not everything every session. Doesn't scale to test all history nightly, and doesn't need to.
+- **Working knowledge** (ongoing + phase-end): daily coding reps quietly interleave one prior concept alongside the new one where it fits naturally. At the **end of each phase**, a cumulative integration checkpoint (`progress/integration-checkpoints.md`) tests everything from that phase together — the actual gate for advancing to the next phase.
 
 ## Map
 - `Cpp_Competency_Roadmap.md` — the syllabus (phases 0–4, timeline).

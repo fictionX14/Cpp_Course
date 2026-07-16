@@ -9,3 +9,6 @@ a.out
 *.exe
 *.dSYM/
 build/
+
+# extensionless compiled binaries (e.g. `g++ -o day02` on macOS) — matches dayNN naming convention
+code/**/day[0-9][0-9]
