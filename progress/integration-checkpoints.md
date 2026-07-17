@@ -6,7 +6,7 @@ Cumulative tests/coding problems run at the **end of each phase** — pulling to
 
 | Phase | Status | Date attempted | Score / result | Notes |
 |---|---|---|---|---|
-| Phase 0 — Memory & Ownership | ⚪ Not yet | — | — | Pending: RAII, `unique_ptr`, `shared_ptr` (in progress), `weak_ptr`, dangling/double-free |
+| Phase 0 — Memory & Ownership | 🟡 Nearly ready | — | — | As of Day 8: stack/heap 🟢, RAII 🟢, new/delete/leaks 🟢, unique_ptr 🟢, shared_ptr 🟢, weak_ptr 🟢, dangling/use-after-free 🟢 (both flavors). Only **double free** remains 🟡 (last clean-ish pass Day 3, one conflation noted). Plan: one more double-free rep, then schedule the checkpoint |
 | Phase 1 — Value Semantics + STL | ⚪ Not yet | — | — | |
 | Phase 2 — Concurrency + UB | ⚪ Not yet | — | — | |
 | Phase 3 — Build & Apply | ⚪ Not yet | — | — | |

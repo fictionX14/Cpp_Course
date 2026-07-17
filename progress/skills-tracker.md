@@ -12,9 +12,9 @@ Mastery matrix for every C++ concept we touch. Update at the end of each session
 | `new`/`delete`, leaks | 🟢 | Day 1 | Day 2 | verified leak count/size w/ real tool, understands allocator overhead |
 | `std::unique_ptr` | 🟢 | Day 2 | Day 4 | consistent correct reasoning across 2 sessions; interleaved successfully into Day 4 coding rep |
 | `std::shared_ptr` | 🟢 | Day 3 | Day 4 | ref-counting mechanism derived correctly AND live-verified via real `use_count()` output Day 4; grasped handle-vs-object distinction unprompted |
-| `std::weak_ptr` | 🟡 | Day 7 | Day 7 | Correctly reasoned the reference-cycle mechanism unprompted (why neither count can hit 0). First instinct for safe access was `use_count()`-then-dereference (a real anti-pattern — not atomic); corrected to `.lock()`, which returns an empty or owning `shared_ptr` in one atomic step. No code written yet — coding rep planned Day 8 |
-| Dangling / use-after-free | 🟡 | Day 5 | Day 7 | Stack-lifetime flavor is rock solid (reused correctly, unprompted, Day 7). Heap-lifetime flavor (use-after-free via `delete` without nulling) still not independently demonstrated — asked for it directly Day 7, gave the stack example again instead. Real gap, not yet closed |
-| Double free | 🟡 | Day 2 | Day 3 | reasoned correctly both times but conflated "UB" with "compile error" once — watch this |
+| `std::weak_ptr` | 🟢 | Day 7 | Day 8 | Day 8: `Track`/`Sensor` cycle fix written, compiled, and run for real. Self-caught own bug (`weak_ptr` assignment via `.lock()` — a no-op on a temporary, corrected to direct assignment). Output confirmed both destructors fire, and correctly traced the exact cascade (reverse-declaration-order + member-teardown) explaining why |
+| Dangling / use-after-free | 🟢 | Day 5 | Day 8 | GAP CLOSED Day 8: wrote a real heap-lifetime use-after-free, compiled under AddressSanitizer, read the full report precisely (alloc/free/bad-read line numbers). Both flavors (stack-lifetime Day 5-7, heap-lifetime Day 8) now demonstrated and tool-verified |
+| Double free | 🟡 | Day 2 | Day 3 | reasoned correctly both times but conflated "UB" with "compile error" once — watch this; last remaining non-🟢 Phase 0 item |
 
 ## Phase 1 — Value Semantics + STL
 | Concept | Status | First seen | Last reviewed | Notes |
